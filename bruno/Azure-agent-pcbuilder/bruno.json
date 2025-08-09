@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Azure-agent-pcbuilder",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
