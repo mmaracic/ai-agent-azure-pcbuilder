@@ -1,0 +1,15 @@
+meta {
+  name: Azure auth
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://pcbuilder-api-h4che8febuh4d5hq.westeurope-01.azurewebsites.net/.auth/login/aad
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
